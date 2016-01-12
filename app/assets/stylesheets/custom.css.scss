@@ -1,6 +1,4 @@
-$navbar-default-bg: #08088A;
-
-
+$navbar-inverse-bg:#08088a;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -17,11 +15,12 @@ $navbar-default-bg: #08088A;
   color: #fff;
   text-decoration:none;
 }
+
 .center {
   text-align:center;
 }
 .jumbotron {
-  background-image: asset-url("8340700558_d8a29e37fc_b");
+  background-image: asset-url("background.jpg");
   background-size: cover;
   height: 650px;
 }
