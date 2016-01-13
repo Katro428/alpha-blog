@@ -19,11 +19,13 @@ $navbar-inverse-bg:#08088a;
 .center {
   text-align:center;
 }
+
 .jumbotron {
   background-image: asset-url("background.jpg");
   background-size: cover;
   height: 650px;
 }
+
 .jumbotron h1 {
   color: white;
   text-align: center;
@@ -32,9 +34,19 @@ $navbar-inverse-bg:#08088a;
   font-weight: bold;
   
 }
+
 .btn-xlg {
   font-size: 1.7em;
   background-color: Black;  
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
 }
 
 footer {
@@ -53,3 +65,4 @@ footer ul {
   float: right;
   list-style: none;
 }
+
